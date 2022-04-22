@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="menu-link menu-active-link" href="#">БАНК</a></li>
+                    <li><a class="menu-link" href="#">БИЗНЕС</a></li>
+                    <li><a class="menu-link" href="#">ИНВЕСТИЦИИ</a></li>
+                    <li><a class="menu-link" href="#">СТРАХОВАНИЕ</a></li>
+                    <li><a class="menu-link" href="#">МОБАЙЛ</a></li>
+                    <li><a class="menu-link" href="#">ПУТЕШЕСТВИЯ</a></li>
+                    <li><a class="menu-link" href="#">РАЗВЛЕЧЕНИЯ</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a class="login-link"href="#">ВОЙТИ</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="currency-box-title">Конвертер валют онлайн</h1>
+            <div class="currency-box">
+                <div class="converter-box converter-box-first">
+                    <p class="converter-box-title">У меня есть </p>
+                    <div class="currency-names">
+                        <div class="currency converted active-currency-left left-border">RUB</div>
+                        <div class="currency converted">USD</div>
+                        <div class="currency converted">EUR</div>
+                        <div class="currency converted right-border">AZN</div>
+                    </div>
+                    <div class="converter">
+                        <input type="text" class="converter-value converter-value-left" value="5000">
+                        <p class="present-currency present-currency-left">1 RUB = 0.0122 USD</p>
+                    </div>
+                </div>
+                <div class="converter-box converter-box-second">
+                    <p class="converter-box-title">Хочу приобрести</p>
+                    <div class="currency-names">
+                        <div class="currency result left-border">RUB</div>
+                        <div class="currency result active-currency-right">USD</div>
+                        <div class="currency result">EUR</div>
+                        <div class="currency result right-border">AZN</div>
+                    </div>
+                    <div class="converter">
+                        <input type="text" class="converter-value converter-value-right" value="60.8050">
+                        <p class="present-currency present-currency-right">1 USD = 82.2301 RUB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="main.js"></script>
+</body>
+</html>
