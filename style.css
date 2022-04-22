@@ -169,4 +169,7 @@ main{
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
+    .currency-box-title{
+        font-size: 28px;
+    }
 }
