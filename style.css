@@ -158,6 +158,7 @@ main{
     }
     .currency{
         text-align: center;
+        padding: 7px 0px;
     }
     .left-border{
         border-bottom-left-radius: 0;
